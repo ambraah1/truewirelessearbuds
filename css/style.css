@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    background-color: #333;
+    color: white;
+    text-align: center; /* Agregado para centrar el título */
     padding: 1rem;
 }
 
