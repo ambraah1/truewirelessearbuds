@@ -69,14 +69,11 @@ footer a:hover {
   background-color: #292e34;
   border: 1px solid #f8f9fa;
 }
-/* ... (estilos existentes) ... */
 
 footer p {
   display: flex;
   justify-content: center;
 }
-
-/* ... (estilos existentes) ... */
 
 .site-title {
   font-size: 2.5rem;
@@ -87,6 +84,7 @@ footer p {
   display: inline-block;
   background: linear-gradient(to right, white, #4392F1);
   -webkit-background-clip: text;
+  background-clip: text; /* Añadida propiedad para compatibilidad */
   -webkit-text-fill-color: transparent;
   position: relative;
 }
