@@ -100,3 +100,27 @@ footer p {
   height: 2px;
   background: linear-gradient(to right, #4392F1, white);
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 5px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f8f9fa;
+}
