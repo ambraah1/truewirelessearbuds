@@ -1,0 +1,20 @@
+/* Tema claro */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Otros elementos que desees personalizar */
+  
