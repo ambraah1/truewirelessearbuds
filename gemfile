@@ -1,9 +1,0 @@
-source "https://rubygems.org"
-
-gem "jekyll", "~> 4.2.0"
-gem "minima", "~> 2.5"
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-seo-tag", "~> 2.6"
-gem 'webrick'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem "jekyll-sass-converter", "~> 2.2.0"
