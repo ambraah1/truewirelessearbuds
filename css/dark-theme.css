@@ -3,25 +3,31 @@
 body {
     background-color: #1e1e1e;
     color: #f5f5f5;
-  }
+}
   
-  /* Barra de navegación */
-  .navbar {
+/* Barra de navegación */
+.navbar {
     background-color: #1e1e1e;
     color: #f5f5f5;
-  }
+}
 
-  .navbar-brand {
+.navbar-brand {
     background-color: #1e1e1e;
-  }
-  
-  /* Botones */
-  .btn-primary {
+}
+
+/* Botones */
+.btn-primary {
     background-color: #3a7bd5;
     border-color: #3a7bd5;
-  }
-  .card {
+}
+
+.navbar .btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.card {
     background-color: #2f2f2f;
-  }
-  /* Otros elementos que desees personalizar */
-  
+}
+
+/* Otros elementos que desees personalizar */

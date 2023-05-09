@@ -1,6 +1,7 @@
 const themeStylesheet = document.getElementById('theme-stylesheet');
 const themeToggle = document.getElementById('theme-toggle');
 
+// Actualiza el texto y el estilo del botón según el tema actual
 function updateThemeButton() {
     if (themeStylesheet.getAttribute('href') === 'css/light-theme.css') {
         themeToggle.textContent = 'Tema oscuro';
@@ -13,6 +14,7 @@ function updateThemeButton() {
     }
 }
 
+// Cambia el color del icono del botón "navbar-toggler" según el tema actual
 function changeNavbarTogglerIconColor() {
     const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
     const navbarToggler = document.querySelector('.navbar-toggler');
@@ -27,6 +29,7 @@ function changeNavbarTogglerIconColor() {
     }
 }
 
+// Evento de escucha para el botón "Cambiar tema"
 themeToggle.addEventListener('click', () => {
     if (themeStylesheet.getAttribute('href') === 'css/light-theme.css') {
         themeStylesheet.setAttribute('href', 'css/dark-theme.css');
