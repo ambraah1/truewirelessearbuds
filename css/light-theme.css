@@ -8,6 +8,12 @@ body {
   /* Barra de navegación */
   .navbar {
     background-color: #f8f9fa;
+    color: #333333;
+  }
+  
+  .navbar-brand {
+    background-color: #f8f9fa;
+    color: #333333 !important;
   }
   
   /* Botones */
@@ -15,6 +21,7 @@ body {
     background-color: #007bff;
     border-color: #007bff;
   }
+
   
   /* Otros elementos que desees personalizar */
   
