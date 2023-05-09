@@ -30,6 +30,29 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
+const minusBtn = document.getElementById('minus-btn');
+const plusBtn = document.getElementById('plus-btn');
+const quantityInput = document.getElementById('quantity');
+const totalPriceValue = document.getElementById('total-price-value');
+const productPrice = 12000;
+
+minusBtn.addEventListener('click', () => {
+    let quantity = parseInt(quantityInput.value);
+    if (quantity > 1) {
+        quantity -= 1;
+        quantityInput.value = quantity;
+        totalPriceValue.textContent = (productPrice * quantity).toLocaleString();
+    }
+});
+
+plusBtn.addEventListener('click', () => {
+    let quantity = parseInt(quantityInput.value);
+    quantity += 1;
+    quantityInput.value = quantity;
+    totalPriceValue.textContent = (productPrice * quantity).toLocaleString();
+});
+
+
     function changeNavbarTogglerIconColor() {
         const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
         const navbarToggler = document.querySelector('.navbar-toggler');
